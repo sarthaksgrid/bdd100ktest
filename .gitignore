@@ -1,0 +1,56 @@
+
+- 
++ # Byte-compiled / cache
++ __pycache__/
++ *.py[cod]
++ *$py.class
++ 
++ # Distribution / packaging
++ build/
++ dist/
++ *.egg-info/
++ 
++ # Virtual environment / environment files (ignored)
++ .env
++ .env.*
++ .venv/
++ venv/
++ ENV/
++ env/
++ pip-wheel-metadata/
++ 
++ # Python testing / coverage
++ .pytest_cache/
++ .coverage
++ coverage.xml
++ htmlcov/
++ 
++ # Jupyter
++ .ipynb_checkpoints
++ 
++ # IDEs and editors
++ .vscode/
++ .idea/
++ *.swp
++ 
++ # macOS
++ .DS_Store
++ 
++ # Logs
++ *.log
++ 
++ # Temporary and cache files
++ *.tmp
++ *.bak
++ ~*
++ 
++ # Do NOT ignore model weights or dataset folders. The project keeps weights and data under version control.
++ # Examples of weight files present in this repo (NOT ignored):
++ # - models/DETR/weights/*.pt
++ # - models/DETR/checkpoints/*.pt
++ # - YOLO/weights/*.pt
++ # - models/DETR/checkpoints/experiments/**
++ 
+# Explicitly allow all weight and checkpoint files
+!*.pt
+!*.pth
